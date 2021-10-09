@@ -13,3 +13,9 @@ Markdown using [Pandoc](https://pandoc.org/).
   [gruvbox](https://github.com/morhetz/gruvbox) color scheme. It has both dark
   and light mode that change based on the what the browser reports as the user's
   preference.
+
+# Examples
+
+An [example document](./example.md) looks like this:
+
+![Example image](./example.png)
