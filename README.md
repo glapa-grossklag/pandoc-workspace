@@ -18,4 +18,6 @@ Markdown using [Pandoc](https://pandoc.org/).
 
 An [example document](./example.md) looks like this:
 
-![Example image](./example.png)
+![Dark example](./example-dark.png)
+
+![Light example](./example-light.png)
