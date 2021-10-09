@@ -306,29 +306,29 @@ header, footer {
   word-break: break-all;
 }
 
-.remarkdown em:not(.math),
-.remarkdown strong:not(.math) {
+.remarkdown em,
+.remarkdown strong {
   font-style: normal;
   font-weight: normal;
 }
 
-.remarkdown em::before:not(.math),
-.remarkdown em::after:not(.math) {
+.remarkdown em::before,
+.remarkdown em::after {
   content: "*";
 }
 
-.remarkdown.em-underscore em::before:not(.math),
-.remarkdown.em-underscore em::after:not(.math) {
+.remarkdown.em-underscore em::before,
+.remarkdown.em-underscore em::after {
   content: "_";
 }
 
-.remarkdown strong::before:not(.math),
-.remarkdown strong::after:not(.math) {
+.remarkdown strong::before,
+.remarkdown strong::after {
   content: "**";
 }
 
-.remarkdown.strong-underscore strong::before:not(.math),
-.remarkdown.strong-underscore strong::after:not(.math) {
+.remarkdown.strong-underscore strong::before,
+.remarkdown.strong-underscore strong::after {
   content: "__";
 }
 
