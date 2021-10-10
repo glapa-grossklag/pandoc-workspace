@@ -17,7 +17,7 @@
     --highlight: #3c3836;
 }
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
     :root {
         --bg: #fbf1c7;
         --fg: #3c3836;
@@ -291,10 +291,10 @@ header, footer {
   content: counter(rmd-ol, lower-alpha) ".";
 }
 
-.remarkdown a::before {
+.remarkdown a::before :not(.sourceCode) {
   content: "[";
 }
-.remarkdown a::after {
+.remarkdown a::after :not(.sourceCode) {
   content: "]";
 }
 
