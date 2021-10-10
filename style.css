@@ -17,7 +17,7 @@
     --highlight: #3c3836;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
     :root {
         --bg: #fbf1c7;
         --fg: #3c3836;
