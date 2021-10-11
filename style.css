@@ -326,6 +326,7 @@ header, footer {
     word-break: break-all;
 }
 
+/*
 .remarkdown em,
 .remarkdown strong {
     font-style: normal;
@@ -351,6 +352,7 @@ header, footer {
 .remarkdown.strong-underscore strong::after {
     content: "__";
 }
+*/
 
 .remarkdown code::before,
 .remarkdown code::after {
